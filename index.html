@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Language</title>
+    
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header class="container flex-container">
+      
+        <div>
+            <h1 style="font-size: 50px; color: white;">Pirate Name Generator</h1>
+        </div>
+        &nbsp;
+        <div>
+
+            <img src="images/pirate.png"/>
+          </div>
+    </header>
+    
+    <div class="flex-container-v">
+        <h3></h3>
+        <textarea id="txt-input" placeholder="Put your message in English here which you want to convert it into pirate's language"></textarea>
+        <br>
+    
+        <button id="btn-translate" style="color: white;">Translate</button>
+        <div id="translate-output" style="font-size: larger; padding: 1rem; color: white;">Translation will come here 👇</div>
+        <textarea id="output" placeholder="Translate message will be shown here once you write a sentence in the above box and click translate"></textarea>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <footer class="container-f" style="margin-top:0rem; bottom:0; left:0; right:0;">
+        <p>Here's an app to translate the english language to pirate's language. 
+           Have fun!
+        </p>
+        <p>Developed using VanillaJS , HTML and CSS by Souvik Das &#x24B8;</p>
+
+    </footer>
+     <!-- Added at the bottom because the HTML file is compiled from top to bottom and we want our
+    scripts to be added at the end; there are other ways to do this; Reason why this makes sense is: 
+    HTML is the layout, and JS adds the funstioning without the layout there can be no functioning 
+    possibility of errors when the page is loaded, check! -->
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
